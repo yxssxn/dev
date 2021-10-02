@@ -1,0 +1,29 @@
+body {
+  position: relative;
+  height: auto;
+  width: auto;
+  background: #FFFFFF;
+  overflow: hidden
+  }
+
+h1 {
+  font-family: monospace;
+  font-style: normal;
+  font-weight: normal;
+  font-size:2vw;
+  line-height: inherit;
+  align-items: center;
+  text-align: center;
+  white-space: pre;
+}
+
+p {
+  font-family: monospace;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2vw;
+  line-height: inherit;
+  align-items: center;
+  text-align: center;
+  white-space: pre;
+}
