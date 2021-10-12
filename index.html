@@ -6,23 +6,80 @@
 <meta name="description" content="© Yassin Ghomari 2021">
 <meta name="keywords" content="yxssxn, YG, Yassin, Ghomari, Yassin Ghomari">
 <meta name="author" content="Yassin Ghomari">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name='viewport' content='width=device-width'>
 <link rel="stylesheet" href="style.css">
 <link rel="shortcut icon" type="image/png" href="https://yxssxn.xyz/img/favicon.png"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="app.js"></script>
 </head>
-<body>
+<body onload="setTheme()">
+  <div class="container">
+  <header>
 <h1>
-  ___.__.___  ___  ______  _________  ___  ____      ___  ___ ___.__.________&nbsp;
- <   |  |\  \/  / /  ___/ /  ___/\  \/  / /    \     \  \/  /<   |  |\___   /&nbsp;
- \___  | >    <  \___ \  \___ \  >    < |   |  \     >    <  \___  | /    /&nbsp;
-  / ____|/__/\_ \/____  >/____  >/__/\_ \|___|  / /\ /__/\_ \ / ____|/_____ \&nbsp;
-  \/           \/     \/      \/       \/     \/  \/       \/ \/           \/&nbsp;
+  ___.__.___  ___  ______  _________  ___  ____      ___  ___ ___.__.________
+ <   |  |\  \/  / /  ___/ /  ___/\  \/  / /    \     \  \/  /<   |  |\___   /
+ \___  | >    <  \___ \  \___ \  >    < |   |  \     >    <  \___  | /    /
+  / ____|/__/\_ \/____  >/____  >/__/\_ \|___|  / /\ /__/\_ \ / ____|/_____ \
+  \/           \/     \/      \/       \/     \/  \/       \/ \/           \/
 </h1>
-<p>
-<a href="mailto:info@yxssxn.xyz">info@yxssxn.xyz</a>
-</p>
-<p>
-© Yassin Ghomari 2021
-</p>
+</header>
+<div class="nav">
+  <nav>
+    <ul class="nav__link--list">
+      <li class="nav__link">
+        <a id="links" href="#" onclick="toggleSocials()"">Links</a>
+      </li>
+      <li class="nav__link">
+        <a id="bookmark" href="#" onclick="toggleBookMarks()">Bookmarks</a>
+      </li>
+      <li class="nav__link">
+        <a href="#" onclick="mode()" id="night__btn">Dark</a>
+      </li>
+    </ul>
+  </nav>
+</div>
+<section id="socials" class="social__links">
+  <h1>
+.------------------------------------------------------------.
+|                      Yassin Ghomari                        |
+|------------------------------------------------------------|
+| Network           | Link                                   |
+|-------------------|----------------------------------------|
+| Discord           | <a href="https://discord.com/" target="_blank" class="table__links">yxssxn#4323</a>                            |
+| Email             | <a href="mailto:info@yxssxn.xyz" target="_blank" class="table__links">info@yxssxn.com</a>                        |
+| Twitter           | <a href="https://twitter.com/yxssxn" target="_blank" class="table__links">@yxssxn</a>                                |
+| LinkedIn          | <a href="http://www.linkedin.com/in/yassinghomari/" target="_blank" class="table__links">/yassinghomari</a>                         |
+'------------------------------------------------------------'
+</h1>
+</section>
+<section id="bookmarks" class="bookmarks">
+  <h1>
+.------------------------------------------------------------.
+|                      Yassin Ghomari                        |
+|------------------------------------------------------------|
+|                        Bookmarks                           |
+|------------------------------------------------------------|
+| <a href="https://play.decentraland.org/?position=-78%2C76&realm=fenrir-amber" target="_blank" class="table__links">Decentraland - Satoshi Casino</a>                              |
+| <a href="https://opensea.io/assets/0x4b3406a41399c7fd2ba65cbc93697ad9e7ea61e5/8732" target="_blank" class="table__links">Opensea - Poet #8732</a>                                       |
+| <a href="https://www.oncinematimeline.com/" target="_blank" class="table__links">The On Cinema Timeline</a>                                     |
+| This will be a bookmark link but it needs to be long an... |
+'------------------------------------------------------------'
+</h1>
+</section>
+<br>
+<br>
+<footer class="footer">
+  <p>
+  <a href="mailto:info@yxssxn.xyz">info@yxssxn.xyz</a>
+  </p>
+  <br>
+    <p>
+MCMLXXXIV
+      </p>
+      <div id="clock"></div>
+</footer>
+<br>
+<br>
+</div>
 </body>
 </html>
