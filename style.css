@@ -4,7 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Roboto', monospace;
+  font-family: 'Roboto Mono', monospace;
   font-weight: normal;
   font-size: clamp(8px, 2vw, 20px);
 }
@@ -34,7 +34,7 @@ body {
 
 
   h1 {
-    font-family: monospace;
+    font-family: 'Roboto Mono', monospace;
     font-style: normal;
     font-weight: normal;
     line-height: inherit;
