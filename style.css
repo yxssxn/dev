@@ -1,32 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;500&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: normal;
+  font-size: clamp(8px, 2vw, 20px);
+}
+
+
+
+
 body {
-  position: relative;
-  height: auto;
-  width: auto;
-  background: #FFFFFF;
-  overflow: hidden
+  height: 100vh;
+  background: #dddddd;
+  overflow: scroll;
+  transition: all 200ms ease;
   }
 
-h1 {
-  font-family: 'Roboto mono';monospace;
-  font-style: normal;
-  font-weight: normal;
-  font-size:2vw;
-  line-height: inherit;
-  align-items: center;
-  text-align: center;
-  white-space: pre;
+
+
+  .night{
+    background-color: #272727;
+    color: #dddddd;
+  }
+
+  .night a{
+    color: #dddddd;
+  }
+
+
+
+
+  h1 {
+    font-family: 'Roboto Mono', monospace;
+    font-style: normal;
+    font-weight: normal;
+    line-height: inherit;
+    align-items: center;
+    text-align: center;
+    white-space: pre;
+  }
+
+  a{
+    color: #000000;
+    text-decoration: none;
+  }
+
+.a__active{
+  color: #000000;
+  text-decoration: underline;
 }
 
-p {
-  font-family: 'Roboto mono';monospace;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 2vw;
-  line-height: inherit;
-  align-items: center;
-  text-align: center;
-  white-space: pre;
+.container{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
-a:visited{color: #000000; text-decoration: underline;}
-a:active{color: #000000; text-decoration: underline;}
-a:link{color: #000000; text-decoration: underline;}
+
+
+header{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  margin: 0 auto;
+  height: 100px;
+}
+
+.nav__link--list{
+  display: flex;
+  list-style-type: none;
+}
+
+.social__links a{
+  text-decoration: underline;
+}
+
+.nav__link{
+  list-style-type: none;
+  padding: 0 5rem;
+}
+
+
+#socials{
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.table__links:visited{
+  color: #4b2f89;
+}
+
+.night
+.table__links:visited{
+  color: #7245dc;
+}
+
+.social__links{
+  display: none;
+  transition: all 200ms ease;
+  -webkit-transition: all 200ms;
+}
+
+
+.footer{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  font-weight: normal;
+}
+
+#bookmarks{
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.bookmarks{
+  display: none;
+  transition: all 200ms ease;
+  -webkit-transition: all 200ms;
+}
+
+
+
+@media screen and (max-width:960px){
+  *{
+    max-width: 960px;
+  }
+  .footer{
+
+  }
+}
