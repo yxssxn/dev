@@ -2,152 +2,60 @@
 <html>
 
 <head>
-<title>yxssxn.xyz</title>  
-<meta name="description" content="Yassin Ghomari">
-<meta name="keywords" content="yxssxn, YG, Yassin, Ghomari, Yassin Ghomari">
-<meta name="author" content="Yassin Ghomari">
-<meta charset="UTF-8">
-<meta name='viewport' content='width=device-width'>
-<link rel="stylesheet" href="style.css">
-<link rel="shortcut icon" type="image/png" href="https://yxssxn.xyz/img/favicon.png"/>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="app.js"></script>
+  <title>yxssxn.xyz</title>
+  <meta name="description" content="Yassin Ghomari, digital creative producer based in Sydney, Australia. ">
+  <meta name="keywords" content="yxssxn, YG, Yassin, Ghomari, Yassin Ghomari">
+  <meta name="author" content="Yassin Ghomari">
+  <meta charset="UTF-8">
+  <meta name='viewport' content='width=device-width'>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" type="image/png" href="https://yxssxn.xyz/img/favicon.png" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="app.js" defer></script>
 </head>
+
 <body onload="setTheme()">
   <div class="container">
-  <header>
-<h1>
- ___.__.___  ___  ______  _________  ___  ____      ___  ___ ___.__.________
-<   |  |\  \/  / /  ___/ /  ___/\  \/  / /    \     \  \/  /<   |  |\___   /
-\___  | >    <  \___ \  \___ \  >    < |   |  \     >    <  \___  | /    /
- / ____|/__/\_ \/____  >/____  >/__/\_ \|___|  / /\ /__/\_ \ / ____|/_____ \
- \/           \/     \/      \/       \/     \/  \/       \/ \/           \/
-</h1>
-</header>
-<div class="nav">
-  <nav>
-    <ul class="nav__link--list">
-      <li class="nav__link">
-        <a id="links" href="#" onclick="toggleSocials()"">Links</a>
-      </li>
-      <li class="nav__link">
-        <a id="bookmark" href="#" onclick="toggleBookMarks()">Bookmarks</a>
-      </li>
-      <li class="nav__link">
-        <a href="#" onclick="mode()" id="night__btn">Dark</a>
-      </li>
-    </ul>
-  </nav>
-</div>
-<section id="socials" class="social__links">
-  <h1>
-.------------------------------------------------------------.
-|                      Yassin Ghomari                        |
-|------------------------------------------------------------|
-| Network           | Link                                   |
-|-------------------|----------------------------------------|
-| AngeList          | <a href="https://angel.co/u/yassinghomari" target="_blank" class="table__links">/yassinghomari</a>                         |
-| Context           | <a href="https://context.app/yxssxn" target="_blank" class="table__links">/yxssxn</a>                                |
-| Discord           | <a href="https://discord.com/" target="_blank" class="table__links">yxssxn#3000</a>                            |
-| Github            | <a href="https://github.com/yxssxn" target="_blank" class="table__links">/yxssxn</a>                                |
-| Email             | <a href="mailto:info@yxssxn.xyz" target="_blank" class="table__links">info@yxssxn.xyz</a>                        |
-| Etherscan         | <a href="https://etherscan.io/address/0x8acde6eb351dfbc81132f0916e3fbdef9980f3ff" target="_blank" class="table__links">yxssxn.eth</a>                             |
-| LinkedIn          | <a href="http://www.linkedin.com/in/yassinghomari/" target="_blank" class="table__links">/yassinghomari</a>                         |
-| Opensea           | <a href="https://opensea.io/yxssxn" target="_blank" class="table__links">/yxssxn</a>                                |
-| Twitter           | <a href="https://twitter.com/yxssxn" target="_blank" class="table__links">@yxssxn</a>                                |
-'------------------------------------------------------------'
-</h1>
-</section>
-<section id="bookmarks" class="bookmarks">
-  <h1>
-.------------------------------------------------------------.
-|                      Yassin Ghomari                        |
-|------------------------------------------------------------|
-|                        Bookmarks                           |
-|------------------------------------------------------------|
-| <a href="https://www.1800lasagne.com.au/" target="_blank" class="table__links">"1800LASAGNE"</a>                                              |
-| <a href="http://nodata.tv/" target="_blank" class="table__links">NODATA</a>                                                     |
-| <a href="http://oliverlaric.com/5050.htm" target="_blank" class="table__links">50 50</a>                                                      |
-| <a href="http://aakashnihalani.com/" target="_blank" class="table__links">AAKASH NIHALANI</a>                                            |
-| <a href="http://www.albumoftheyear.org/" target="_blank" class="table__links">albumoftheyear</a>                                             |
-| <a href="https://www.patreon.com/allgasnobrakes/posts" target="_blank" class="table__links">All Gas No Brakes</a>                                          |
-| <a href="http://www.bumrocks.com/" target="_blank" class="table__links">bumrocks</a>                                                   |
-| <a href="https://cables.gl/" target="_blank" class="table__links">cables</a>                                                     |
-| <a href="http://www.cannedemails.com/?ref=producthunt" target="_blank" class="table__links">Canned Emails</a>                                              |
-| <a href="https://carbon.fyi/" target="_blank" class="table__links">carbon.fyi</a>                                                 |
-| <a href="http://www.looknohands.com/chordhouse/piano/" target="_blank" class="table__links">chord house ::: piano room</a>                                 |
-| <a href="https://www.ourcouch.xyz/" target="_blank" class="table__links">Couch Meme || Come couch surf with us</a>                      |
-| <a href="https://text-symbols.com/" target="_blank" class="table__links">Cute and cool text symbols to copy paste</a>                   |
-| <a href="https://www.cowboylyrics.com/" target="_blank" class="table__links">Country Lyrics, Tabs, Chords for Country Music Fans!</a>       |
-| <a href="http://portfolio.darkigloo.com/" target="_blank" class="table__links">Dark Igloo</a>                                                 |
-| <a href="https://www.newgrounds.com/portal/view/111101" target="_blank" class="table__links">Darth Vader Soundboard</a>                                     |
-| <a href="http://www.pathguy.com/rockstar/rockstar.htm" target="_blank" class="table__links">Dead Rock Stars</a>                                            |
-| <a href="https://deathtothestockphoto.com/" target="_blank" class="table__links">Deathtostock</a>                                               |
-| <a href="http://www.delia-derbyshire.org/recordings.php" target="_blank" class="table__links">Delia Derbyshire Recordings</a>                                |
-| <a href="https://lingojam.com/FancyTextGenerator" target="_blank" class="table__links">Fancy Text Generator (copy and paste)</a>                      |
-| <a href="https://encycolorpedia.com/b4cfb0" target="_blank" class="table__links">Fender 57 / Surf Green / #b4cfb0</a>                           |
-| <a href="http://flowingdata.com/" target="_blank" class="table__links">FlowingData | Data Visualization and Statistics</a>            |
-| <a href="https://www.metmuseum.org/art/collection/search/259357" target="_blank" class="table__links">Fragmentary colossal head of a youth | The Met</a>             |
-| <a href="http://www.haw-lin.com/" target="_blank" class="table__links">haw-lin</a>                                                    |
-| <a href="http://samplesetindex.hiphopisread.com/" target="_blank" class="table__links">Hip Hop Is Read: Sample Set Index</a>                          |
-| <a href="http://ferrygouw.com/?works=illustrations" target="_blank" class="table__links">Illustrations | ferrygouw.com</a>                              |
-| <a href="http://en.wikipedia.org/wiki/Indefinite_and_fictitious_numbers" target="_blank" class="table__links">Indefinite and fictitious numbers</a>                          |
-| <a href="http://katebush.galactic.to/midi.html" target="_blank" class="table__links">Kate Bush midi files</a>                                       |
-| <a href="http://vimeo.com/12256739" target="_blank" class="table__links">Kees Dorst | Interpreting Design Thinkingo</a>                 |
-| <a href="http://www.leonardoulian.it/" target="_blank" class="table__links">leonardo ulian - Home</a>                                      |
-| <a href="http://trastero.speccy.org/cosas/Drivers/Drives.htm" target="_blank" class="table__links">Los programas para los interfaces</a>                          |
-| <a href="http://www.lovefingers.org/" target="_blank" class="table__links">Lovefingers</a>                                                |
-| <a href="http://www.whosampled.com/artist/MF%20Doom/" target="_blank" class="table__links">MF Doom | WhoSampled</a>                                       |
-| <a href="http://michaelwhite.org.uk/" target="_blank" class="table__links">Michael White</a>                                              |
-| <a href="http://mod-synth.io/" target="_blank" class="table__links">MOD Synth</a>                                                  |
-| <a href="http://www.mrdoob.com/" target="_blank" class="table__links">Mr.doob | Obsidian</a>                                         |
-| <a href="http://www.nicolascollins.com/listen.htm" target="_blank" class="table__links">Nicolas Collins: Listen</a>                                    |
-| <a href="http://nobutakaaozaki.com/maps.html" target="_blank" class="table__links">Nobutaka Aozaki</a>                                            |
-| <a href="https://editorial.rottentomatoes.com/article/objection-sustained-jury-duty-deserves-its-zero-percent-tomatometer/" target="_blank" class="table__links">Objection Sustained: Jury Duty Deserves Its 0% Tomatometer</a> |
-| <a href="https://prism-break.org/" target="_blank" class="table__links">Opt out of global data surveillance programs - PRISM Break</a> |
-| <a href="http://www.paperrad.org/newindex.html" target="_blank" class="table__links">Paperrad</a>                                                   |
-| <a href="http://www.pffr.net/" target="_blank" class="table__links">PFFR</a>                                                       |
-| <a href="http://bobodenkirk.com/" target="_blank" class="table__links">PRIVATE NEWSPAPER - the official website of bob odenkirk</a>   |
-| <a href="http://prostheticknowledge.tumblr.com/page/2" target="_blank" class="table__links">prosthetic knowledge</a>                                       |
-| <a href="http://www.newrafael.com/" target="_blank" class="table__links">Rafaël Rozendaal – Official Website</a>                        |
-| <a href="http://stylefeld.tumblr.com/page/2" target="_blank" class="table__links">STYLEFELD</a>                                                  |
-| <a href="https://teenage.engineering/guides/po-12/en" target="_blank" class="table__links">teenage engineering – PO-12 guide</a>                          |
-| <a href="https://patorjk.com/software/taag/#p=display&amp;f=Chiseled&amp;t=yxssxn.xyz" target="_blank" class="table__links">Text to ASCII Art Generator (TAAG)</a>                         |
-| <a href="http://www.cremaster.net/#" target="_blank" class="table__links">The CREMASTER Cycle by Matthew Barney</a>                      |
-| <a href="https://toolshed.com/2015/05/the-failure-of-agile.html" target="_blank" class="table__links">The Failure of Agile</a>                                       |
-| <a href="http://www.milliondollarhomepage.com/" target="_blank" class="table__links">The Million Dollar Homepage</a>                                |
-| <a href="http://www.coryarcangel.com/" target="_blank" class="table__links">The Official Cory Arcangel Website</a>                         |
-| <a href="https://www.oncinematimeline.com/" target="_blank" class="table__links">The On Cinema Timeline</a>                                     |
-| <a href="https://thispersondoesnotexist.com/" target="_blank" class="table__links">thispersondoesnotexist.com</a>                                 |
-| <a href="http://threejs.org/" target="_blank" class="table__links">three.js - JavaScript 3D library</a>                           |
-| <a href="http://graphic-design.tjs-labs.com/index" target="_blank" class="table__links">TJS Labs Gallery of Graphic Design</a>                         |
-| <a href="http://www.twoyoutubevideosandamotherfuckingcrossfader.com/" target="_blank" class="table__links">TWOYOUTUBEVIDEOSANDAMOTHERFUCKINGCROSSFADER.COM</a>            |
-| <a href="http://www.ubu.com/film/transgression.html" target="_blank" class="table__links">U B U W E B : Cinema of Transgression</a>                      |
-| <a href="http://uxmyths.com/" target="_blank" class="table__links">UX Myths</a>                                                   |
-| <a href="http://www.vgmusic.com/" target="_blank" class="table__links">VGMusic</a>                                                    |
-| <a href="http://warp.net/artists/" target="_blank" class="table__links">WARP | Artists</a>                                             |
-| <a href="http://whatthefuckshouldimakefordinner.com/" target="_blank" class="table__links">What The Fuck Should I Make For Dinner?</a>                    |
-| <a href="https://www.windows93.net/" target="_blank" class="table__links">WINDOWS93</a>                                                  |
-| <a href="http://www.wolframalpha.com/examples/Music.html" target="_blank" class="table__links">Wolfram|Alpha Examples - Music</a>                             |
-| <a href="http://annywang.se/WORK" target="_blank" class="table__links">WORK - Anny Wang</a>                                           |
-| <a href="http://www.zeitguised.com/" target="_blank" class="table__links">ZEITGUISED – Zeitgeist's Irregular Twin</a>                    |
-'------------------------------------------------------------'
-</h1>
-</section>
-<br>
-<br>
-<footer class="footer">
-  <p>
-  <a href="mailto:info@yxssxn.xyz">info@yxssxn.xyz</a>
-  </p>
-  <br>
-    <p>
-MCMLXXXIV
+    <header>
+      <h1 id="ascii-art">
+      </h1>
+    </header>
+    <div class="nav">
+      <nav>
+        <ul class="nav__link--list">
+          <li class="nav__link">
+            <a id="links" href="#" onclick="toggleSocials()">Links</a>
+          </li>
+          <li class="nav__link">
+            <a id="bookmark" href="#" onclick="toggleBookMarks()">Bookmarks</a>
+          </li>
+          <li class="nav__link">
+            <a href="#" onclick="mode()" id="night__btn">Dark</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <section id="socials" class="social__links">
+      <div id="socialsTable" class="table"></div>
+    </section>
+    <section id="bookmarks" class="bookmarks">
+      <div id="bookmarksTable" class="table"></div>
+    </section>
+    <br>
+    <br>
+    <footer class="footer">
+      <p>
+        <a href="mailto:info@yxssxn.xyz">info@yxssxn.xyz</a>
+      </p>
+      <br>
+      <p>
+        MCMLXXXIV
       </p>
       <div id="clock"></div>
-</footer>
-<br>
-<br>
-</div>
+    </footer>
+    <br>
+    <br>
+  </div>
 </body>
+
 </html>
